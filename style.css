@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-list {
+    height: 10vh;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: centre;
+    margin-left: auto;
+    list-style: none;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
