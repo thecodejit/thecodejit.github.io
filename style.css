@@ -1,21 +1,15 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+.navbar-nav li{
+    padding: 1.1rem;
 
-.nav-list {
-    height: 10vh;
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-    align-items: centre;
-    margin-left: auto;
-    list-style: none;
 }
-
-.nav-links{
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-}
+ .nav-link{
+     font-size: 1.1rem;
+     font-weight: 600;
+ }
+ .navbar-brand{
+     font-weight: 1000;
+ }
+ 
+ .nav-link:hover{
+     border-bottom: .1rem solid rgba(137, 187, 37, 0.867);
+ }
